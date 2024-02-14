@@ -1,26 +1,24 @@
 # Banco-Dados-Senac
-Repositório desenvolvido para referência na UC8 do curso de Infromática para Internet do Senac
+Olá, eu sou Aécio Brito, tutor do curso de Informática Para Internet. Este repositório contém os materiais e códigos desenvolvidos durante o curso de Infromática para Internet do Senac
 
-Estrutura do Projeto
+## Estrutura do Projeto
+
 O projeto segue a estrutura abaixo, com cada aula em um diretório específico:
+- aulas/
+  - xx/
+    - codigo.sql
+- adicionais/
+    - desafios/
 
-projeto/
-├── aulas/
-│   ├── xx/
-│   │   └── código.sql
-├── adicionais/
-├── desafios/
+## Referências Externas
+- [Biblioteca Senac](http://biblioteca.sp.senac.br/bnportal/m/pt-BR/search?exp=sql): A biblioteca do Senac conta com um excelente acervo de livros aboradndo Banco de Dados.
+- [w3schools-SQL](https://www.w3schools.com/sql/default.asp): Referencia da w3schools para a linguagem SQL
+- [w3schools-MySQL](https://www.w3schools.com/mysql/default.asp): Referencia da w3schools para o SGBD MySql
 
-Cada aula está localizada em um diretório específico dentro de aulas, onde você encontrará o arquivo código.sql correspondente.
 
-adicionais/: Contém recursos adicionais relacionados ao projeto.
-desafios/: Possíveis desafios relacionados ao projeto.
-Referências Externas
-Biblioteca Senac: A biblioteca do Senac oferece um excelente acervo de livros relacionados ao Banco de Dados.
-w3schools-SQL: Referência do w3schools para a linguagem SQL.
-w3schools-MySQL: Referência do w3schools para o SGBD MySQL.
-Desafios Técnicos
-CodeSignal Arcade: Uma série de desafios técnicos em SQL.
-Autor
-Professor: Aécio Mendes Brito
+## Desafios Tecnicos
+- [CodeSignal Arcade](https://app.codesignal.com/arcade/db): Uma sequencia de desafios tecnicos em SQL
+
+**Aécio Mendes Brito**
+
 [Informática Para Internet - Senac São Paulo]
