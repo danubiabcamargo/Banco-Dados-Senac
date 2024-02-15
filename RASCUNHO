@@ -1,0 +1,15 @@
+AULA SOBRE SELECT 14/02/2024 - DQL
+
+SELECT
+FROM
+
+
+ORDER BY = ordem
+desc = descendente 
+
+ORDER BY Preço desc
+LIKE = tipo
+LIKE '%jogaConsulta%'
+____________________________________________________
+
+WHERE = onde (condição)
