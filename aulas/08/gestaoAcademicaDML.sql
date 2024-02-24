@@ -40,21 +40,21 @@ select * from professor;
 
 INSERT INTO professor (Id, Nome, Especializacao) values
 -- alterar especializacao no UPDATE
-	(1,'Pedro', 'Geografia'),
-	(2,'Laryssa', 'Medicina'),
-	(3,'Domenica', 'História'),
-	(4,'Valentina', 'Medicina'),
-	(5,'Marcos', 'Português');
+	(1,'Pedro', 'Inteligência Artificial'),
+	(2,'Laryssa', 'Saúde'),
+	(3,'Domenica', 'Matemática Avançada'),
+	(4,'Valentina', 'Matemática Básica'),
+	(5,'Marcos', 'Historiadora');
 
 
 select * from disciplina;
 INSERT INTO disciplina (Id,Nome,horas) values
 -- ALTERAR NO UPDATE APÓS O PROFESSOR EXPLICAR O QUE SIGNIFICA
-	(1,'Pedro', 100),
-	(2,'Laryssa', '120'),
-	(3,'Domenica', '115'),
-	(4,'Valentina', '900'),
-	(5,'Marcos', '300');
+	(1,'Tecnologia', 100),
+	(2,'Obstetricia', '120'),
+	(3,'Matemática Aplicada', '115'),
+	(4,'Física', '900'),
+	(5,'História', '300');
 
 select * from professor_disciplina;
 INSERT INTO professor_disciplina (Professor_ID, Disciplina_ID) values
@@ -64,4 +64,23 @@ INSERT INTO professor_disciplina (Professor_ID, Disciplina_ID) values
 	(3,1),
 	(2,5);
 
+-- ALTER alterar a estrutura
+-- UPDATE alterar um registro na tabela
 
+-- DDL Update
+UPDATE disciplina 
+SET  Nome = 'História', horas = 500
+-- WHERE especializacao = 'Geografia'; OU dois metodos de utilizar
+WHERE id = 1;
+-- WHERE - EM QUAL REGISTRO QUER APLICAR O UPDATE
+
+-- Update de todas para 40 onde Horas for maior que 40
+UPDATE disciplina
+SET horas = 40
+WHERE horas > 40;
+
+select * from professor;
+select * from disciplina;
+
+-- DML Delete
+DELETE FROM disciplina WHERE id = 3;
