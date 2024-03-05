@@ -23,7 +23,7 @@ FROM curso
 -- Contar quantas disciplinas cada professor leciona
 SELECT COUNT(*) AS professores_disciplinas
 FROM disciplina
- #NÃO CONSEGUI
+ #NÃO CONSEGUI entender se precisa unir as duas tabelas
 
 -- Combinar nome do aluno e data da matrícula
 SELECT nome, matricula
@@ -35,7 +35,7 @@ INNER JOIN matricula ON Nome = DataMatricula;
 SELECT curso.nome as Nome_Curso, aluno.nome as Nome_Aluno
 FROM curso
 INNER JOIN aluno ON curso.id_aluno = aluno.id;
-# NÃO CONSEGUI
+# NÃO CONSEGUI criar a relação dos dois
 
 -- Contar quantos alunos se matricularam em cada curso
 SELECT COUNT(*) AS MatriculasCurso
