@@ -29,4 +29,4 @@ SHOW GRANTS FOR 'aplicacao'@'localhost';
 
 -- Revogar permissões
 -- REVOKE tipo_permissao ON banco.tabela FROM 'usuario' @ 'local';
-REVOKE 
+REVOKE SELECT ON compras.pedido FROM 'aplicacao'@'localhost';
